@@ -1,0 +1,69 @@
+html, body {
+  font-family: "Roboto Mono", monospace;
+  background-color: #98EB9B;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  font-size: 35px;
+  background-image: url("1 fundo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+  text-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
+  
+}
+footer {
+   font-family: "Edu AU VIC WA NT Pre", cursive;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+footer a{
+  text-decoration: none:
+    color: rgb(189,97,113);
+}
+
+footer a:hover{
+  color: rgb(189, 97, 113);
+  font-weight: 800;
+}
+
+button{
+  font-family: "Bitter", serif;
+  background-color: #98EB9B;
+  border: 2px solid rgb(14,0,3);
+  color: black;
+  font-size: 25px;
+  border-radius: 25px;
+  margin: 20px;
+  padding: 5px;
+}
+
+button:hover{
+   background-color: #4CAF50;
+  border: 2px solid #4CAF50;
+  box-shadow: 5px 4px 4px rgb(24,34,24);
+  font-weight: 800;
+  color: black;
+}
+main{
+  max-width: 90%;
+  text-align:center;
+  flex:1;
+  
+}
+img{
+  max-width: 90%;
+}
+
+.passo{
+  display: none;
+}
+.passo.ativo{
+  display:block;
+}
